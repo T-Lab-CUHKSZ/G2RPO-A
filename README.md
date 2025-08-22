@@ -7,7 +7,13 @@
 
 ## News
 
+- XX.XX.XXXX, Code is released.
+
 ## Overview
+
+In this project, we
+- Investigate Guided GRPO, and provide comprehensive study of various guidance configurations.
+- Introduce G2RPO-A, an adaptive algorithm that automatically adjusts guidance length in response to the evolving training state.
 
 <div align="center">
     <img src="assets/guided-overview.png" alt="Example of Guided GRPO" width="700"/>
@@ -23,7 +29,7 @@
 
 ## Training
 
-G$^2$RPO-A training
+G2RPO-A training
 ```
 python ./src/grpo.py
 ```
