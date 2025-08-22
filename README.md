@@ -9,6 +9,12 @@
 
 ## Overview
 
+<div align="center">
+    <img src="assets/guided-overview.png" alt="Example of Guided GRPO" width="700"/>
+    <br/>
+    <figcaption>Guided GRPO</figcaption>
+</div>
+
 ## Environments
 
 ## Model Zoo
