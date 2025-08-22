@@ -31,14 +31,11 @@ We are grateful for the following awesome projects:
 ## Bibliography
 If you find this repository helpful for your project, please consider citing:
 ```
-@misc{guo2024tracetemporalgroundingvideo,
-      title={TRACE: Temporal Grounding Video LLM via Causal Event Modeling}, 
-      author={Yongxin Guo and Jingyu Liu and Mingda Li and Xiaoying Tang and Qingbin Liu and Xi Chen},
-      year={2024},
-      eprint={2410.05643},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2410.05643}, 
+@article{guo2025g,
+  title={G $\^{} 2$ RPO-A: Guided Group Relative Policy Optimization with Adaptive Guidance},
+  author={Guo, Yongxin and Deng, Wenbo and Cheng, Zhenglin and Tang, Xiaoying},
+  journal={arXiv preprint arXiv:2508.13023},
+  year={2025}
 }
 ```
 
