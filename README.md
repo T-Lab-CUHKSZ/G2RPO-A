@@ -7,7 +7,14 @@
 
 ## News
 
-- XX.XX.XXXX, Code is released.
+- 08.26.2025, Code is released.
+
+## TODO
+
+- [ ] Release the model checkpoints
+- [ ] Release the inference and evaluation code
+- [ ] Release the training data
+- [x] Release the training code
 
 ## Overview
 
