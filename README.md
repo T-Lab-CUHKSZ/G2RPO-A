@@ -2,11 +2,22 @@
 
 <h3 align="center"> Yongxin Guo*, Wenbo Deng*, Zhenglin Cheng, Xiaoying Tang </h3>
 
-<h5 align="center"> If our project helps you, please give us a star ⭐ and cite our <a href="#bibliography">paper</a>!</h2>
-<h5 align="center">
+<p align="center">
+  If our project helps you, please give us a star ⭐ and cite our <a href="#bibliography">paper</a>!
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2508.13023">
+    <img src="https://img.shields.io/badge/Paper-ArXiv-b31b1b" alt="ArXiv Paper">
+  </a>
+  <a href="#bibliography">
+    <img src="https://img.shields.io/badge/Citation-BibTeX-blue" alt="BibTeX Citation">
+  </a>
+</p>
 
 ## News
 
+- **[2026.05]** 🎉 Our paper is accepted to ACL 2026 Main Conference!
 - 08.26.2025, Code is released.
 
 ## TODO
@@ -21,6 +32,12 @@
 In this project, we
 - Investigate Guided GRPO, and provide comprehensive study of various guidance configurations.
 - Introduce G2RPO-A, an adaptive algorithm that automatically adjusts guidance length in response to the evolving training state.
+
+## Why Do We Need G2RPO-A?
+
+Guided GRPO can improve reasoning and code generation by injecting external guidance into policy optimization. However, the effectiveness of guidance strongly depends on how much guidance is provided at different stages of training.
+
+G2RPO-A addresses this challenge with adaptive guidance. It automatically adjusts the guidance length according to the evolving training state, reducing manual tuning while preserving the benefits of guided optimization.
 
 <div align="center">
     <img src="assets/guided-overview.png" alt="Example of Guided GRPO" width="700"/>
@@ -53,13 +70,13 @@ accelerate launch \
 We are grateful for the following awesome projects:
 
 ## Bibliography
-If you find this repository helpful for your project, please consider citing:
+If you find this project helpful, please consider citing our work:
 ```
-@article{guo2025g,
-  title={G $\^{} 2$ RPO-A: Guided Group Relative Policy Optimization with Adaptive Guidance},
+@inproceedings{guo2026g2rpoa,
+  title={G2RPO-A: Guided Group Relative Policy Optimization with Adaptive Guidance},
   author={Guo, Yongxin and Deng, Wenbo and Cheng, Zhenglin and Tang, Xiaoying},
-  journal={arXiv preprint arXiv:2508.13023},
-  year={2025}
+  booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)},
+  year={2026}
 }
 ```
 
