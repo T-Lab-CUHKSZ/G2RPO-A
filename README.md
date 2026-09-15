@@ -22,9 +22,9 @@
 
 ## TODO
 
-- [ ] Release the model checkpoints
-- [ ] Release the inference and evaluation code
-- [ ] Release the training data
+- [x] Release the model checkpoints
+- [x] Release the inference and evaluation code
+- [x] Release the training data
 - [x] Release the training code
 
 ## Overview
